@@ -9,14 +9,6 @@ const db = require('../db.json');
 const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
 
-server.use((req, res, next) => {
-  if (req.query && req.query.path) {
-    req.url = '/' + req.query.path;
-    delete req.query.path;
-  }
-  next();
-});
-
 server.use(middlewares);
 // Redireciona a rota /api para a raiz
 server.use(jsonServer.rewriter({

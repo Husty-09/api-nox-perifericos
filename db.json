@@ -1,0 +1,131 @@
+{
+  "especificacoes": [
+    {
+      "id": 1,
+      "produto_baseId": 1,
+      "descricao": "Switch Red (Linear/Silencioso)"
+    },
+    {
+      "id": 2,
+      "produto_baseId": 1,
+      "descricao": "Switch Blue (Clicky/Tátil)"
+    },
+    {
+      "id": 3,
+      "produto_baseId": 2,
+      "descricao": "Sensor Óptico 16K DPI"
+    },
+    {
+      "id": 4,
+      "produto_baseId": 2,
+      "descricao": "Sensor Óptico 25K DPI"
+    },
+    {
+      "id": 5,
+      "produto_baseId": 3,
+      "descricao": "Painel IPS 144Hz"
+    },
+    {
+      "id": 6,
+      "produto_baseId": 3,
+      "descricao": "Painel OLED 240Hz"
+    },
+    {
+      "id": 7,
+      "produto_baseId": 4,
+      "descricao": "Virtual 7.1 Surround"
+    },
+    {
+      "id": 8,
+      "produto_baseId": 4,
+      "descricao": "Estéreo Profissional Hi-Res"
+    }
+  ],
+  "status_pedido": [
+    {
+      "id": 1,
+      "descricao": "Pagamento Aprovado"
+    },
+    {
+      "id": 2,
+      "descricao": "Em Separação"
+    },
+    {
+      "id": 3,
+      "descricao": "Enviado"
+    }
+  ],
+  "pedidos": [],
+  "adicionais": {
+    "complemento": [
+      {
+        "id": 1,
+        "nome": "Iluminação RGB",
+        "descricao": "Adiciona faixa LED RGB endereçável",
+        "foto": "",
+        "valor": 50,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Cabo Coiled",
+        "descricao": "Cabo espiralado aviador tipo-c",
+        "foto": "",
+        "valor": 80,
+        "eh_novidade": true
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 1,
+        "nome": "Mousepad Extended",
+        "descricao": "Mousepad gigante 90x40cm",
+        "foto": "",
+        "valor": 120,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Suporte Articulado",
+        "descricao": "Suporte com pistão a gás",
+        "foto": "",
+        "valor": 250,
+        "eh_novidade": true
+      }
+    ]
+  },
+  "produtos_base": [
+    {
+      "id": 1,
+      "nome": "Teclado Mecânico",
+      "foto": "/img/teclado.png",
+      "descricao": "Teclado mecânico customizável hot-swappable.",
+      "valor": 450,
+      "eh_novidade": true
+    },
+    {
+      "id": 2,
+      "nome": "Mouse Competitivo",
+      "foto": "/img/mouse.png",
+      "descricao": "Mouse ultraleve para esportes eletrônicos.",
+      "valor": 350,
+      "eh_novidade": true
+    },
+    {
+      "id": 3,
+      "nome": "Monitor Ultrawide",
+      "foto": "/img/monitor.png",
+      "descricao": "Monitor Ultrawide 34 polegadas 144hz.",
+      "valor": 2500,
+      "eh_novidade": false
+    },
+    {
+      "id": 4,
+      "nome": "Headset 7.1",
+      "foto": "/img/headset.png",
+      "descricao": "Headset com som surround 7.1.",
+      "valor": 600,
+      "eh_novidade": false
+    }
+  ]
+}

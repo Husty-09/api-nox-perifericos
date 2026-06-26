@@ -98,7 +98,7 @@
     {
       "id": 1,
       "nome": "Teclado Mecânico",
-      "foto": "/img/teclado.png",
+      "foto": "https://husty-09.github.io/nox-perifericos-vue/img/teclado.png",
       "descricao": "Teclado mecânico customizável hot-swappable.",
       "valor": 450,
       "eh_novidade": true
@@ -106,7 +106,7 @@
     {
       "id": 2,
       "nome": "Mouse Competitivo",
-      "foto": "/img/mouse.png",
+      "foto": "https://husty-09.github.io/nox-perifericos-vue/img/mouse.png",
       "descricao": "Mouse ultraleve para esportes eletrônicos.",
       "valor": 350,
       "eh_novidade": true
@@ -114,7 +114,7 @@
     {
       "id": 3,
       "nome": "Monitor Ultrawide",
-      "foto": "/img/monitor.png",
+      "foto": "https://husty-09.github.io/nox-perifericos-vue/img/monitor.png",
       "descricao": "Monitor Ultrawide 34 polegadas 144hz.",
       "valor": 2500,
       "eh_novidade": false
@@ -122,7 +122,7 @@
     {
       "id": 4,
       "nome": "Headset 7.1",
-      "foto": "/img/headset.png",
+      "foto": "https://husty-09.github.io/nox-perifericos-vue/img/headset.png",
       "descricao": "Headset com som surround 7.1.",
       "valor": 600,
       "eh_novidade": false
